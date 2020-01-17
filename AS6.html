@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AS6</title>
+    <link rel="stylesheet" href="css/AS6.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/cbcb8e5fec.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h1>Add an address to set up currencies and tax rates</h1>
+                <i class="fas fa-circle"></i>
+                <span><i class="fas fa-circle"></i></span>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="content">
+                <form>
+                    <div class="name">
+                        <div class="firstname">
+                            <p>first name</p>
+                            <input name="firstname" type="text" required/>
+                        </div>
+
+
+                        <div class="lastname">
+                            <p>last name</p>
+                            <input name="lastname" type="text" required/>
+                        </div>
+                    </div>
+
+
+                    <div class="address">
+                        <p>Street address</p>
+                        <input name="address" type="text" required/>
+                    </div>
+                    <div class="optional">
+                        <p>APT,SUITE,ETC(OPTIONAL)</p>
+                        <input name="optional" type="text"/>
+                    </div>
+                    <div class="city_zip">
+                        <div class="city">
+                            <p>city</p>
+                            <input name="city" type="text" placeholder="Paris" required/>
+                        </div>
+                        <div class="zipcode">
+                            <p>zip/postal code</p>
+                            <input name="zipcodee" type="number" required/>
+                        </div>
+                    </div>
+
+                    <div class="country">
+                        <select name="country" required>
+                            <option value="hn">Ha Noi</option>
+                            <option value="sg">Sai Gon</option>
+                            <option value="nd">Nam Dinh</option>
+                        </select>
+
+                    </div>
+                    <div class="phonenumber" required>
+                        <p>phone number</p>
+                        <input name="phonenumber" type="number/">
+
+                    </div>
+                    <div class="submit">
+                        <button type="submit" >Next</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
