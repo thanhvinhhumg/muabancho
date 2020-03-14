@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+body{
+    font: 400 12pt/1.25 Be Vietnam ;
+    background-color: white;
+
+    line-height: 1.6;
+}
+.section1{
+    color: white;
+    text-decoration: none;
+    background-color: #a11f2b;
+    height: 45px;
+    position: fixed;
+}
+.section .container .header p{
+    float: left;
+    margin: 10px;
+    color: white;
+}
+.section .container .header div label {
+    float: right;
+}
+.section .container .header .find #search  {
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+    border: 1px solid #a11f2b;
+}
+.section .container .header a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+/*.section2{
+    position: fixed;
+}*/
+.section2 .container ul li{
+    list-style: none;
+    float: left;
+    padding-right: 80px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.section .container ul li a{
+    color: #840000;
+    text-decoration: none;
+}
+.section2 .container ul .dropdown{
+    position: relative;
+}
+.subdropdow{
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 150px;
+    z-index: 100;
+    border: 1px solid gainsboro;
+    background-color: white;
+    font-size: 16px;
+    display: none;
+}
+.active > .subdropdow{
+    display: block;
+    height: auto;
+}
+.section2{
+    border-bottom: 1px solid #d4d4d4;
+    border-top:1px solid #d4d4d4 ;
+    position: fixed;
+    top: 45px;
+    z-index: 100;
+    background-color: white;
+}
+.section.section5{
+    margin-top: 100px;
+}
+.section .container .dichvu{
+    margin-top: 90px;
+    background-color: lightgray;
+    padding-bottom:20px;
+}
+.section .container .dichvu h2{
+    color: yellow ;
+    border: 2px solid gray ;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: -38px;
+    background-color: #a11f2b;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.section .container .dichvu p{
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+.section .container .camket{
+    margin-top: 20px;
+}
+.section .container .camket h2{
+    width: 50%;
+    color: #a11f2b;
+    font-size: 30px;
+    border: 2px solid yellow;
+    text-align: center;
+    margin-left: 25%;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 20px;
+}
+.section .container .camket div{
+    width: 32%;
+    float: left;
+    padding: 10px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+.section .container .camket .chatluong{
+    float: right;
+}
+.section .container .camket .giadichvu{
+    margin-left: 24px;
+}
+.section .container .camket div h3{
+    color: #a11f2b;
+    margin-bottom: 10px;
+}
+.section .container .lydo div{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+}
+.section .container .lydo1{
+    padding-right: 20px;
+}
+.section .container .lydo2{
+    float: right;
+    padding-left: 20px;
+}
+.section .container .lydo2 img{
+    max-width: 100%;
+}
+.section .container .price{
+    margin-top: 30px;
+}
+.section .container .price1 h3{
+    color: #a11f2b;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.section .container .price1{
+    text-align: center;
+    margin-top: 50px;
+}
+.section .container p{
+    margin: 20px 0;
+}
+.section .container .price2{
+    width: 50%;
+    float: left;
+}
+.section .container .price2 div{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section .container .price3{
+    width: 50%;
+    float: left;
+    border-left: 2px dashed red;
+}
+.section .container .price3 div{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.section .container .price3 div p{
+    text-align: center;
+}
+.section .container .price2 div p{
+    text-align: center;
+}
+.section .container .price2 div .kg {
+    background-color: skyblue;
+    padding: 15px 0;
+}
+.section .container .price2 div .gia{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+.section .container .price2 div p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section .container .price3 div .kg {
+    background-color: skyblue;
+    padding: 15px 0;
+}
+.section .container .price3 div .gia{
+    background-color: black;
+    padding: 15px 0;
+}
+.section .container .price3 div p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section .container .price3 div p a{
+    text-decoration: none;
+    color: white;
+}
+.section .container .price2 div p a{
+    text-decoration: none;
+    color: white;
+}
+.section .container .spa h4{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color: #a11f2b;
+}
+.section .container div .luuy1{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.section .container div .luuy1 img{
+    max-width: 100%;
+}
+.section .container div .luuy2{
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.section .container div .luuy2 h3{
+    color: #a11f2b;
+    font-size: 25px;
+}
+.section.section3{
+    margin-top: 30px;
+}
+.section .container .details {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+
+}
+.section3 .container .details details div{
+    padding-bottom: 25px;
+    border-top: 1px solid lightgray;
+
+}
+.section .container .details details summary{
+    font-size: 20px;
+    color: #a11f2b;
+    display: block;
+    margin-bottom: 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.section .container .img3 {
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+}
+.section .container .img3 img{
+    max-width: 100%;
+}
+.section.section4 .container .huongdan{
+    width: 33.33333%;
+    float: left;
+    padding: 15px;
+}
+.section.section4{
+    margin-top: 20px;
+}
+.section.section4 .container .huongdan div{
+    border: 1px solid gainsboro;
+    padding: 0 10px;
+}
+.section.section4 .container .huongdan img{
+    max-width: 100%;
+}
+.section.section4 .container .huongdan div h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.section.section4 .container .huongdan div p a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+.section.section4 .container .huongdan div p:hover a{
+    color: blue;
+}
+.section.section4 .container .k{
+    padding-left: 0;
+}
+.section.section4 .container .p{
+    padding-right: 0;
+}
+.section.dangky{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url("../imgs/poodle/background-tu-van-ngay.jpg");
+}
+.section .gif img {
+    max-width: 80px;
+    padding-bottom: 50px;
+}
+.section.dangky div a img{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.section.dangky .lienhe{
+    margin-bottom: 30px;
+}
+.section.dangky .lienhe a{
+    padding: 20px 100px;
+    background-color: #a11f2b;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.section .container form div{
+    width: 25%;
+    float: left;
+}
+.section .container form div input{
+    width: 250px;
+    height: 30px;
+}
+.section .container form .phanhoi{
+    float: right;
+}
+.section .container form .phanhoi button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
+.section .container .form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section.section12{
+    margin-top: 20px;
+    background-color: #000000;
+}
+.section.section12 .container div{
+    width: 27%;
+    float: left;
+    color: white;
+}
+.section.section12 .container .congty{
+    margin: 40px 0;
+    margin-left: 114px;
+}
+.section.section12 .container .congty .truso li{
+    list-style: none;
+}
+.section.section12 .container .congty .truso li i{
+    width: 40px;
+    height: 42px;
+    font-size: 180%;
+    float: left;
+    margin-top: 20px;
+}
+.section.section12 .container .congty .truso li div{
+    width: 82%;
+    float: left;
+}
+.section.section12 .container .congty .truso li div p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section.section12 .container .danhmuc{
+    margin: 40px 30px 40px 30px;
+}
+.section.section12 .container .danhmuc ul{
+    list-style: square;
+}
+.section.section12 .container .danhmuc ul li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid #0e0e0e;
+    margin-left: 20px;
+}
+.section.section12 .container .follow{
+    margin: 40px 0;
+}
+.section.section12 .container .follow div{
+    width: 100%;
+}
+.section.section12 .container .follow div img{
+    width: 17%;
+    float: left;
+    padding: 0 2px;
+    margin-top: 30px;
+}
+.section.section12 .container div h3{
+    font-size: 24px;
+}
+.section.section12 .container div a{
+    color: white;
+}
+.section.section12 .container .congty .truso li .hotline{
+    margin-top: 20px;
+}
+.section.section12 .container div ul{
+    margin-top: 30px;
+}

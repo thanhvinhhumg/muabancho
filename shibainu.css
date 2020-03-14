@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    float: left;
+
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+body{
+    font: 400 12pt/1.25 Be Vietnam ;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.6;
+}
+.section1{
+    color: white;
+    text-decoration: none;
+    background-color: #a11f2b;
+    height: 45px;
+    position: fixed;
+}
+.section .container .header p{
+    float: left;
+    margin: 10px;
+    color: white;
+}
+.section .container .header div label {
+    float: right;
+}
+.section .container .header .find #search  {
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+    /*background-color: #a11f2b;*/
+    border: 1px solid white;
+}
+.section .container .header a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+.section2 .container ul li{
+    list-style: none;
+    float: left;
+    padding-right: 80px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.section .container ul li a{
+    color: #840000;
+    text-decoration: none;
+}
+.section2 .container ul .dropdown{
+    position: relative;
+}
+.subdropdow{
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 150px;
+    z-index: 100;
+    border: 1px solid gainsboro;
+    background-color: white;
+    font-size: 16px;
+    display: none;
+}
+.active > .subdropdow{
+    display: block;
+    height: auto;
+}
+.section2{
+    border-bottom: 1px solid #d4d4d4;
+    border-top:1px solid #d4d4d4 ;
+    position: fixed;
+    top: 45px;
+    background-color: white;
+}
+.section.section15{
+    margin-top: 160px;
+}
+h2{
+    color: #4c4c4c;
+    font-size: 30px;
+    font-weight: 120%;
+    margin-bottom: 20px;
+}
+h3{
+    color: #9f202b;
+    font-size: 25px;
+    text-transform: capitalize;
+    border-bottom: 10px;
+    margin: 20px 0;
+}
+p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.section .container div{
+    text-align: center;
+}
+.section .container div img {
+    display: inline-block;
+}
+ul{
+    text-transform: none;
+}
+h4{
+    font-size: 12pt;
+    margin: 20px 0;
+}
+h1{
+    color: #ff0000;
+    font-size:30px;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+span{
+    color: #000000;
+}
+.section .container .price {
+    border: 2px dashed #a11f2b;
+    margin: 15px;
+    padding: 10px;
+    text-align: left;
+}
+.section .container .price p{
+    margin-bottom: 20px;
+}
+.section .container .store{
+    border: 2px dashed #a11f2b;
+    margin: 15px;
+    padding: 10px;
+}
+.section .container .link .logo {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.section .container .store figure{
+    margin: 20px 0;
+}
+.section .container .link .tvshow div{
+    width: 25%;
+    float: left;
+
+}
+.section .container .link div a img{
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+.section13{
+    margin-top: 30px;
+}
+.section.section13 .container div{
+    float: left;
+    color: #a11f2b;
+    font-size: 30px;
+}
+.section.section13 .container form div{
+    margin-right: 30px;
+}
+.section.section13 .container form div input{
+    width: 250px;
+    height: 30px;
+}
+.section.section13 .container form .phanhoi{
+    float: right;
+}
+.section.section13 .container form .phanhoi button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    margin-right: 100px;
+}
+.section.section13 .container .form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section.section14{
+    background-color: black;
+    float: left;
+}
+.section.section14 .container div{
+    width: 27%;
+    float: left;
+}
+.section.section14 .container .congty h3{
+    color:  white;
+    float: left;
+}
+.section14 .container .congty .truso li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.section14 .container .congty .truso li i{
+    color: white;
+    width: 18%;
+    float: left;
+    font-size: 200%;
+    margin-top: 20px;
+}
+.section14 .container .congty .truso li div {
+    width: 82%;
+    float: left;
+}
+.section14 .container .congty .truso li div p{
+    color: white;
+    float: left;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.section14 .container .congty .hotline{
+    margin-top: 20px;
+}
+.section14 .container .congty .hotline a{
+    color: white;
+    float: left;
+}
+.section14 .container .danhmuc{
+    text-align: left;
+    margin-left: 60px;
+}
+.section14 .container .danhmuc h3{
+    color: white;
+}
+.section14 .container .danhmuc ul li{
+    list-style: square;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.section14 .container .danhmuc ul li a {
+    color: white;
+}
+.section.section14 .container .danhmuc ul li{
+    font-size: 16px;
+    border-bottom: 1px solid #0e0e0e;
+}
+.section14 .container .follow h3{
+  color: white;
+}
+.section14 .container .follow div {
+    width: 100%;
+}
+.section14 .container .follow div a{
+    width: 17%;
+}
+.section14{
+    margin-top: 30px;
+}

@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    float: left;
+
+    text-align: justify;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+body{
+    font: 400 12pt/1.25 Be Vietnam ;
+    line-height: 1.6;
+}
+.section1{
+    color: white;
+    text-decoration: none;
+    background-color: #a11f2b;
+    height: 45px;
+    position: fixed;
+}
+.section .container .header p{
+    float: left;
+    margin: 10px;
+    color: white;
+}
+.section .container .header div label {
+    float: right;
+}
+.section .container .header .find #search  {
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 35px;
+    width: 150px;
+    margin-top: 5px;
+    /*background-color: #a11f2b;*/
+    border: 1px solid white;
+}
+.section .container .header a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+.section2 .container ul li{
+    list-style: none;
+    float: left;
+    padding-right: 80px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.section2 .container ul .dropdown{
+    position: relative;
+}
+.subdropdow{
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 150px;
+    z-index: 100;
+    border: 1px solid gainsboro;
+    background-color: white;
+    font-size: 16px;
+    display: none;
+}
+.active > .subdropdow{
+    display: block;
+    height: auto;
+}
+.section .container ul li a{
+    color: #840000;
+    text-decoration: none;
+}
+.section2 {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    position: fixed;
+    top: 45px;
+    z-index: 100;
+    background-color: white;
+}
+.section.banner{
+    margin-top: 112px;
+}
+.section .container {
+    line-height: 1.6;
+}
+.section.chopoodle .container .a{
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+.section .container .a .nguongoc1 h3{
+    color: #a11f2b;
+    font: normal 100px/1.25 Oswald;
+   margin-bottom: 30px;
+}
+.section .container .a .chopoodle1{
+    float: left;
+    width: 45%;
+}
+.section .container .a .nguongoc1{
+    padding: 200px 0;
+    width: 55%;
+    float: right;
+}
+.section .container .a .chopoodle2{
+    width: 45%;
+    float: right;
+   margin-top: -700px;
+}
+.section .container .a .nguongoc2{
+    width: 55%;
+    margin-top: 100px;
+}
+.section .container .a .nguongoc2 h3 {
+    color: #a11f2b;
+    font: normal 60px/1.25 Oswald;
+    margin-bottom: 30px;
+}
+.section .container .a .nguongoc2 p{
+    margin-bottom: 30px;
+}
+.section .container .a .nguongoc2 p a{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #a11f2b;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.section.chopoodle.b{
+    background-image: url("../imgs/poodle/background-cho-poodle.jpg");
+
+}
+.section.chopoodle.c{
+    background-color: #e4e7ec;
+}
+.section .container .lydo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section .container .lydo h3{
+    font-size: 60px;
+    font-weight: 700;
+    color: #a11f2b;
+    font-family: utm-cafeta;
+}
+.section .container .lydo1 .ngoaihinh{
+    width: 34%;
+    float: left;
+    padding: 15px;
+    margin-right: 5px;
+    background-color: #ebebeb;
+}
+.section .container .lydo1 .ngoaihinh img{
+    max-width: 100%;
+}
+.section .container .lydo1 .ngoanngoan{
+    width: 64%;
+    float: right;
+    padding: 15px;
+    margin-right: 5px;
+    background-color: #ebebeb;
+}
+.section .container .lydo1 .ngoanngoan div{
+    width: 50%;
+    float: left;
+}
+.section .container .lydo1 .ngoanngoan div img{
+    max-width: 100%;
+}
+.section .container .lydo1 .thongminh{
+    width: 64%;
+    float: right;
+    padding: 15px;
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: #ebebeb;
+}
+.section .container .lydo1 .thongminh div {
+    width: 50%;
+    float: left;
+}
+.section .container .lydo1 .thongminh div img{
+    max-width: 100%;
+}
+.section .container .lydo1 h4{
+    color: #a11f2b;
+}
+.section.prision .container p{
+    font-size: 16px;
+}
+.section.prision .container .lydo1 .ngoanngoan p{
+    padding-left: 15px;
+}
+.section.prision .container .lydo1 .ngoanngoan h4{
+    padding-left: 15px;
+}
+.section.prision .container .lydo1 .thongminh p{
+    padding-left: 15px;
+}
+.section.prision .container .lydo1 .thongminh h4{
+    padding-left: 15px;
+}
+.section .container .lydo2 div{
+    width: 49.5%;
+    float: left;
+    margin-top: 20px;
+    /*margin-bottom: 30px;*/
+}
+.section .container .lydo2 .giaca{
+    margin-right: 5px;
+    padding: 15px;
+    background-color: #ebebeb;
+}
+.section .container .lydo2 .khongdunglong{
+    margin-left: 5px;
+    padding: 15px;
+    background-color: #ebebeb;
+}
+.section.dangky{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url("../imgs/poodle/background-tu-van-ngay.jpg");
+}
+.section .gif img {
+    max-width: 80px;
+    padding-bottom: 50px;
+}
+.section.dangky div a img{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.section .container .phanloai1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.section .container .phanloai1 img{
+    margin-bottom: 20px;
+}
+.section .container .phanloai1 p a{
+    color: #c75d5d;
+    text-decoration: none;
+}
+.section .container .phanloai1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #a11f2b;
+    font-family: utm-cafeta;
+}
+.section .container .phanloai2 div{
+    width: 30.3333%;
+    float: left;
+}
+.section .container .phanloai2 .toy{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+.section .container .phanloai2 .mini{
+    margin: 0 25px;
+    margin-bottom: 20px;
+}
+.section .container .phanloai2 .standard{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.section .container .phanloai2 div p {
+    font-size: 14px;
+}
+.section .container .phanloai2 div h5{
+    color: #a11f2b;
+}
+.section .container .phanloai3{
+    margin-top: 427px;
+    background-color: #a11f2b;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+.section .container .price h3{
+    font-size: 60px;
+    font-weight: 700;
+    color: #a11f2b;
+    font-family: utm-cafeta;
+    margin-top: 100px;
+    width: 65%;
+    position: relative;
+}
+.section .container .price p{
+    width: 60%;
+}
+.section .container .price img{
+    float: right;
+    margin-top: -200px;
+}
+.section .container .price .title-price:before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 3px;
+    width: 55%;
+    background-color: #a11f2b;
+}
+.section .container .price p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section .container .banggia div {
+    width: 32.1%;
+    float: left;
+}
+.section .container .banggia div ul {
+    width: 33.3333%;
+    float: left;
+    list-style: none;
+}
+.banggia{
+    border: 1px solid #444444;
+    padding: 40px 20px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+.section .container .banggia div .mausac li {
+    text-align: left;
+}
+.section .container .banggia div h5{
+    text-align: left;
+}
+.section .container .banggia .boder2 {
+    border-right: 3px solid #a11f2b;
+    margin-right: 20px;
+}
+.section .container .banggia .boder1 {
+    border-right: 3px solid #a11f2b;
+    margin-right: 20px;
+    margin-left: 2px;
+}
+.section.section3{
+    background-image: url("../imgs/poodle/background-phan-loai-cho-poodle.jpg");
+}
+.section .quatang{
+    width: 45%;
+    float: right;
+    text-align: center;
+    display: block;
+    /*margin-right: 74.5px;*/
+}
+.section .quatang .uudai p{
+    font-size: 40px;
+    color: #a11f2b;
+    font-weight: 700;
+    transform: scale(1,2);
+    margin: 30px 0;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.section .quatang .titel-uudai p{
+    font-size: 25px;
+    color: #7e0000;
+    margin-top: 10px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.section .quatang .listquantang span {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 65px;
+    border-radius: 20px;
+    background-color: #a11f2b;
+    color: #ffcc00;
+}
+.section .quatang .listquantang div div{
+    width: 50%;
+    float: left;
+}
+.section .quatang .listquantang .danhsach {
+    border: 1px solid #ffcc00;
+    height: 630px;
+    border-radius: 20px;
+    margin-top: -30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(0,0,0,0.42);
+}
+.section .quatang .listquantang .danhsach div p{
+    font-size: 14px;
+    color: white;
+}
+.section.section4{
+    background-image: url("../imgs/poodle/background-uu-dai-poodle.jpg");
+    margin-top: 30px;
+    background-size: cover;
+}
+.section .container .timchu{
+    text-align: center;
+    margin: 30px 0;
+}
+.section .container .timchu h2{
+    font-size: 40px;
+    color: #a11f2b;
+    font-weight: 600;
+}
+.section .container .imgs img{
+    width: 12.5%;
+    float: left;
+    margin-right: 21px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.section .container .imgs{
+    height: 360px;
+    background-color: lightpink;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+/*
+.section .container .imgs:hover img{
+    transform: scale(2);
+    transition: 1s;
+}*/
+.section .container .quyenloi{
+    text-align: center;
+}
+.section .container .quyenloi h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #a11f2b;
+    margin:20px 0 0 0;
+}
+.section .container .quyenloi div img{
+    margin-bottom: 20px;
+}
+.section.section5{
+    background-image: url("../imgs/poodle/meo-anh-bg-quyen-loi.jpg");
+    text-align: center;
+    border-bottom: 1px solid #333333;
+}
+.section .container .camket {
+    text-align: center;
+}
+.section .container .camket h2{
+    color: #a11f2b;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.section .container .camket img{
+    max-width: 100%;
+}
+.section.section6{
+    background-image: url("../imgs/poodle/background-cam-ket.jpg");
+}
+.section.section7{
+    background-image: url("../imgs/poodle/cac-luu-y-khi-chon-cho-poodle.jpg");
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.section.section7 .container div{
+    width: 50%;
+    float: left;
+}
+.section.section7 .container div h2{
+    color: #a11f2b;
+    font-size: 50px;
+    font-family: Oswald;
+    line-height: 1.3;
+    margin-top: 50px;
+}
+.section.section7 .container div p{
+    margin-bottom: 10px;
+}
+.section.section7 .container div p span{
+    color: #a11f2b;
+    font-weight: 600;
+}
+.section.section7 .container div h2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+.section.section7 .container div .cacluuy:before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    width: 65%;
+    background-color: #a11f2b;
+    line-height: 10px;
+}
+.section.section8{
+    background-image: url("../imgs/poodle/background-cac-luu-y-nuoi-cho-poodle.jpg");
+    border-top: none;
+    background-size: cover;
+}
+.section .container .luuynuoicho {
+    width: 58%;
+    text-align: justify;
+    float: right;
+    margin-bottom: 30px;
+}
+.section .container .luuynuoicho  h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: #a11f2b;
+    font-family: utm-cafeta;
+    margin-top: 40px;
+}
+.section .container .luuynuoicho p{
+    font-size: 16px;
+    margin: 8px 0;
+}
+.section.section9{
+    background-image: url("../imgs/poodle/background-ve-azpet.jpg");
+}
+.section.section9 .container .veazpet {
+    width: 50%;
+    margin-left: 300px;
+    text-align: center;
+}
+.section.section9 .container .veazpet h3{
+    font-size: 40px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: #a11f2b;
+}
+.section.section9 .container .veazpet h4{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.section.section9 .container .veazpet iframe{
+    margin: 30px 0;
+}
+.section.section11 .container div{
+    width: 50%;
+    float: left;
+    margin: 30px 0;
+text-align: justify
+}
+.section .container .ndcamket p{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.section.section10 {
+    background-color: #f0f0f0;
+}
+.section.section10 .truyenthong{
+    width: 100%;
+    text-align: center;
+}
+.section.section10 .truyenthong h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #a11f2b;
+    margin-top: 20px;
+}
+.section.section10 .container .linktt{
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+}
+.section.section10 .container .linktt div{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin: 40px 0 20px 0;
+}
+.section.section10 .container .linktt div a img{
+    border-radius: 5px;
+}
+.section .container form div{
+    width: 25%;
+    float: left;
+}
+.section .container form div input{
+    width: 250px;
+    height: 30px;
+}
+.section .container form .phanhoi{
+    float: right;
+}
+.section .container form .phanhoi button{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
+.section .container .form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section.section12{
+    margin-top: 20px;
+    background-color: #000000;
+}
+.section.section12 .container div{
+    width: 27%;
+    float: left;
+    color: white;
+}
+.section.section12 .container .congty{
+    margin: 40px 0;
+    margin-left: 114px;
+}
+.section.section12 .container .congty .truso li{
+    list-style: none;
+}
+.section.section12 .container .congty .truso li i{
+    width: 40px;
+    height: 42px;
+    font-size: 180%;
+    float: left;
+    margin-top: 20px;
+}
+.section.section12 .container .congty .truso li div{
+    width: 82%;
+    float: left;
+}
+.section.section12 .container .congty .truso li div p{
+    font-size: 16px;
+}
+.section.section12 .container .danhmuc{
+    margin: 40px 30px 40px 30px;
+}
+.section.section12 .container .danhmuc ul{
+    list-style: square;
+}
+.section.section12 .container .danhmuc ul li{
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-bottom: 2px solid #0e0e0e;
+    margin-left: 20px;
+}
+.section.section12 .container .follow{
+    margin: 40px 0;
+}
+.section.section12 .container .follow div{
+    width: 100%;
+}
+.section.section12 .container .follow div img{
+    width: 17%;
+    float: left;
+    padding: 0 2px;
+    margin-top: 30px;
+}
+.section.section12 .container div h3{
+    font-size: 24px;
+}
+.section.section12 .container div a{
+    color: white;
+}
+.section.section12 .container .congty .truso li .hotline{
+    margin-top: 20px;
+}
+.section.section12 .container div ul{
+    margin-top: 30px;
+}
+
+
+
